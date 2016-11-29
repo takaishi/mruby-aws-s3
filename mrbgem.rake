@@ -8,4 +8,5 @@ MRuby::Gem::Specification.new('mruby-aws-s3') do |spec|
   spec.add_dependency 'mruby-pack'
   spec.add_dependency 'mruby-simplehttp'
   spec.add_dependency 'mruby-httprequest'
+  spec.add_test_dependency 'mruby-time'
 end
